@@ -13,5 +13,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        editText1 = findViewById(R.id.editText1);
+        editText2 = findViewById(R.id.editText2);
+        button1 = findViewById(R.id.button1);
+        button2 = findViewById(R.id.button2);
+        button3 = findViewById(R.id.button3);
+        button4 = findViewById(R.id.button4);
+
+        
     }
 }

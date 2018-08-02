@@ -1,4 +1,11 @@
 package ar.com.max.calculadora;
 
-public class ListenerDivision {
+import android.view.View;
+
+public class ListenerDivision implements View.OnClickListener {
+    MainActivity context;
+
+    public ListenerDivision(MainActivity context) {
+        this.context = context;
+    }
 }

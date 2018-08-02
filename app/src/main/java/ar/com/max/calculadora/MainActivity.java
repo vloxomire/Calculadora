@@ -6,13 +6,21 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    private EditText editText1, editText2, editText3;
+    private EditText editText1, editText2;
     private Button button1, button2, button3, button4;
     private ListenerSuma listenerSuma;
     private ListenerResta listenerResta;
     private ListenerDivision listenerDivision;
     private ListenerMultiplicacion listenerMultiplicacion;
 
+//GENERADO DE LOS GET
+    public EditText getEditText1() {
+        return editText1;
+    }
+
+    public EditText getEditText2() {
+        return editText2;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

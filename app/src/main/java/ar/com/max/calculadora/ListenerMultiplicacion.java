@@ -1,4 +1,11 @@
 package ar.com.max.calculadora;
 
-public class ListenerMultiplicacion {
+import android.view.View;
+
+public class ListenerMultiplicacion implements View.OnClickListener{ //INTERFAZE DE ONCLICK
+    MainActivity context;   //OBJETO ACTIVITY
+//CONSTRUCTOR
+    public ListenerMultiplicacion(MainActivity context) {
+        this.context = context;
+    }
 }

@@ -8,4 +8,9 @@ public class ListenerMultiplicacion implements View.OnClickListener{ //INTERFAZE
     public ListenerMultiplicacion(MainActivity context) {
         this.context = context;
     }
+
+    @Override
+    public void onClick(View view) {
+
+    }
 }

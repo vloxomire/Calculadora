@@ -8,4 +8,9 @@ public class ListenerDivision implements View.OnClickListener {
     public ListenerDivision(MainActivity context) {
         this.context = context;
     }
+
+    @Override
+    public void onClick(View view) {
+        
+    }
 }

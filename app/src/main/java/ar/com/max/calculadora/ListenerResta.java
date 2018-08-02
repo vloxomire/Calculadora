@@ -8,4 +8,9 @@ public class ListenerResta implements View.OnClickListener {
     public ListenerResta(MainActivity context) {
         this.context = context;
     }
+
+    @Override
+    public void onClick(View view) {
+
+    }
 }

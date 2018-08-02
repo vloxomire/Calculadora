@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         return editText2;
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,5 +40,7 @@ public class MainActivity extends AppCompatActivity {
         listenerResta = new ListenerResta(this);
         listenerDivision = new ListenerDivision(this);
         listenerMultiplicacion = new ListenerMultiplicacion(this);
+
+
     }
 }

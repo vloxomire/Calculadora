@@ -7,5 +7,21 @@
 <TextView
     android:id="@+id/textView1"
     android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    android:layout_height="wrap_content"
+    android:text="RESULTADO"
+    android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="VALOR"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView1"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText3"/>
 </RelativeLayout>

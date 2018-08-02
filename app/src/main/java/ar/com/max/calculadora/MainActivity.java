@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
         button3 = findViewById(R.id.button3);
         button4 = findViewById(R.id.button4);
 
-
+        //VINCULO LISTENER
+        listenerSuma = new ListenerSuma(this);
+        listenerResta = new ListenerResta(this);
+        listenerDivision = new ListenerDivision(this);
+        listenerMultiplicacion = new ListenerMultiplicacion(this);
     }
 }

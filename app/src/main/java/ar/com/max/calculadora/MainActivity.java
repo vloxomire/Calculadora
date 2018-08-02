@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         listenerDivision = new ListenerDivision(this);
         listenerMultiplicacion = new ListenerMultiplicacion(this);
 
-
+        //seteo onclick en listener
+        button1.setOnClickListener(listenerSuma);
+        button2.setOnClickListener(listenerResta);
+        button3.setOnClickListener(listenerDivision);
+        button4.setOnClickListener(listenerMultiplicacion);
     }
 }

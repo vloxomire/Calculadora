@@ -8,6 +8,11 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
     private EditText editText1, editText2, editText3;
     private Button button1, button2, button3, button4;
+    private ListenerSuma listenerSuma;
+    private ListenerResta listenerResta;
+    private ListenerDivision listenerDivision;
+    private ListenerMultiplicacion listenerMultiplicacion;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +26,6 @@ public class MainActivity extends AppCompatActivity {
         button3 = findViewById(R.id.button3);
         button4 = findViewById(R.id.button4);
 
-        
+
     }
 }

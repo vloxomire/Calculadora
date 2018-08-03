@@ -13,6 +13,8 @@ public class ListenerResta implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         Intent intent = new Intent(context, Resultado.class);
-        context.startActivity(Resultado);
+        Integer resta = Integer.valueOf(context.getEditText1().getText().toString()) - Integer.valueOf(context.getEditText2().getText().toString());
+        intent.putExtra("resultado", resta);
+        context.startActivity(intent);
     }
 }

@@ -1,5 +1,6 @@
 package ar.com.max.calculadora;
 
+import android.content.Intent;
 import android.view.View;
 
 public class ListenerDivision implements View.OnClickListener {
@@ -11,6 +12,7 @@ public class ListenerDivision implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-
+        Intent intent = new Intent(context, Resultado.class);
+        context.startActivity(Resultado);
     }
 }
